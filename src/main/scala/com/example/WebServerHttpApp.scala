@@ -14,5 +14,5 @@ object WebServerHttpApp extends HttpApp with App {
         }
       }
 
-  startServer("localhost", 8080)
+  startServer("localhost", 9001)
 }

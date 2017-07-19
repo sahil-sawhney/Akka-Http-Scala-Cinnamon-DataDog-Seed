@@ -1,5 +1,16 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(com.example.WebServerHttpAppSpec, org.scalatest.tools.Framework$$anon$1@7307a860, false, [SuiteSelector])[0m
-[0m[[0minfo[0m] [0m[36mRun completed in 1 second, 480 milliseconds.[0m[0m
+[0m[[0mdebug[0m] [0mjavaOptions: List(-javaagent:/home/sahil/.ivy2/cache/com.lightbend.cinnamon/cinnamon-agent/jars/cinnamon-agent-2.4.2.jar=loglevel=INFO)[0m
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(com.example.WebServerHttpAppSpec, sbt.ForkMain$SubclassFingerscan@227ce1c9, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mWebServerHttpAppSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mWebServiceHttpApp[0m[0m
+[0m[[0minfo[0m] [0m[32m- should answer to any request to `/`[0m[0m
+[0m[[0minfo[0m] [0m[32m- should answer to GET requests to `/hello`[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not handle a POST request to `/hello`[0m[0m
+[0m[[0minfo[0m] [0m[32m- should respond with 405 when not issuing a GET to `/hello` and route is sealed[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 4 events.[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 2 seconds, 702 milliseconds.[0m[0m
 [0m[[0minfo[0m] [0m[36mTotal number of tests run: 4[0m[0m
 [0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0minfo[0m] [0m[36mTests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0[0m[0m

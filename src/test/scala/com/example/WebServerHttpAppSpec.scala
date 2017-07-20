@@ -18,22 +18,22 @@ class WebServerHttpAppSpec extends WordSpec with Matchers with ScalatestRouteTes
         responseAs[String] shouldBe "Server up and running"
       }
     }
-    "answer to GET requests to `/hello`" in {
+    /*"answer to GET requests to `/hello`" in {
       Get("/hello") ~> WebServerHttpApp.routes ~> check {
         status shouldBe StatusCodes.OK
         responseAs[String] shouldBe "Hello world"
       }
-    }
+    }*/
     "not handle a POST request to `/hello`" in {
       Post("/hello") ~> WebServerHttpApp.routes ~> check {
         handled shouldBe false
       }
     }
-    "respond with 405 when not issuing a GET to `/hello` and route is sealed" in {
+    /*"respond with 405 when not issuing a GET to `/hello` and route is sealed" in {
       Put("/hello") ~> Route.seal(WebServerHttpApp.routes) ~> check {
         status shouldBe StatusCodes.MethodNotAllowed
       }
-    }
+    }*/
   }
 
 }

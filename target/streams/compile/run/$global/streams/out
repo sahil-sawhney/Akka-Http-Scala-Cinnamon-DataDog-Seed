@@ -1,8 +1,0 @@
-[0m[[0mdebug[0m] [0mjavaOptions: List(-javaagent:/home/sahil/.ivy2/cache/com.lightbend.cinnamon/cinnamon-agent/jars/cinnamon-agent-2.4.2.jar=loglevel=INFO)[0m
-[0m[[0minfo[0m] [0mRunning com.example.WebServerHttpApp [0m
-[0m[[0minfo[0m] [0m[INFO] [07/19/2017 17:32:27.415] [CoreAgent] Cinnamon Agent version 2.4.2[0m
-[0m[[31merror[0m] [0mSLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m
-[0m[[31merror[0m] [0mSLF4J: Defaulting to no-operation (NOP) logger implementation[0m
-[0m[[31merror[0m] [0mSLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m
-[0m[[0minfo[0m] [0m[INFO] [07/19/2017 17:32:29.891] [WebServerHttpApp-akka.actor.default-dispatcher-8] [akka.actor.ActorSystemImpl(WebServerHttpApp)] Server online at http://localhost:9001/[0m
-[0m[[0minfo[0m] [0mPress RETURN to stop...[0m

@@ -4,3 +4,5 @@ credentials += Credentials(Path.userHome / ".lightbend" / "commercial.credential
 
 resolvers += Resolver.url("lightbend-commercial",
  url("https://repo.lightbend.com/commercial-releases"))(Resolver.ivyStylePatterns)
+
+addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.5")
